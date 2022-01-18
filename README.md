@@ -1,6 +1,6 @@
 # ShoppingApp
 I have built this application as per the given details in the word file. <br>
-In order to run this app download the ShoppingApp, open in the Eclipse and run as java application. (Java version should be greater than 8.0). <br><br>
+In order to run this application download the ShoppingApp, open in the Eclipse and run as java application. (Java version should be greater than 8.0). <br><br>
 Some of the Screenshots were attached along the file for the proof . Please have a look at those screen shots. <br>
 Documention is mentioned in their respective classes. <br><br>
 
