@@ -19,16 +19,16 @@ There are 3 main controller classes where all 6 methods were done. <br>
 2. <b> ControllerPayement class </b><br>
      /{userId}/{orderId}/pay    
       This has a single method which is used for Payement. If there is no error in the amount or order Id, then transaction will be done based on the last digit of the orderId.
-          If last digit of OrderId -> <=3      transaction is success.
-                                   -> 4 or 5   payement failed from bank.
-                                   -> else     No response from payement server. 
+         <br> If last digit of OrderId -> <=3      transaction is success. <br>
+                                   -> 4 or 5   payement failed from bank.<br>
+                                   -> else     No response from payement server. <br>
 
   3.) <b> ControllerDataReturn class </b><br>
            1.) /{userId}/orders   
                      Displays all orders of a particular userId.
                   -> If the userId is valid, then it display's all basic details of orders by running a loop through the list.
                       And sending the data in the form of a Json Format.
-                  -> else send the message "Invalid UserId" 
+                  -> else send the message "Invalid UserId"  <br>
            2.) /{userId}/orders/{orderId}       
                   Displaying the details of a Particular orderId
                -> If the orderId and userId is valid then send the data of that order.
