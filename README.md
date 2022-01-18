@@ -19,7 +19,7 @@ There are 3 main controller classes where all 6 methods were done. <br>
 2. <b> ControllerPayement class </b><br>
      /{userId}/{orderId}/pay    
       This has a single method which is used for Payement. If there is no error in the amount or order Id, then transaction will be done based on the last digit of the orderId.
-         <br> If last digit of OrderId -> <=3      transaction is success. <br>
+         <br> If last digit of OrderId -> less than or equal to 3      transaction is success. <br>
                                    -> 4 or 5   payement failed from bank.<br>
                                    -> else     No response from payement server. <br>
 
@@ -32,7 +32,6 @@ There are 3 main controller classes where all 6 methods were done. <br>
            2.) /{userId}/orders/{orderId}       
                   Displaying the details of a Particular orderId
                -> If the orderId and userId is valid then send the data of that order.
-               
                -> Else send the message "Invalid OrderId".
   
 
